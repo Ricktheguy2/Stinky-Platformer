@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 262,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -55,6 +55,7 @@
     "playableDevices": [
       "keyboard",
       "gamepad",
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -834,9 +835,88 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Mobile Layouts/6a8102ce3340bf9f62300ee1a81ef0b2327b2c6e8d62d7dda68d547f5e2b5969_rotate-screen-icon.png",
           "name": "rotate-screen-icon.png"
         }
+      },
+      {
+        "file": "assets/Fly_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_12.png\"}",
+        "name": "assets\\Fly_7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_12.png\"}",
+        "name": "assets\\Fly_10",
+        "smoothed": true,
+        "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [
     {
@@ -2851,6 +2931,7 @@
       "variables": [
         {
           "name": "dead",
+          "persistentUuid": "0ca8293c-03a8-4c61-8233-fbbd5e3c5d61",
           "type": "boolean",
           "value": false
         }
@@ -2881,16 +2962,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Fly_1",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.06499999761581421,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_1.png",
+                  "image": "assets\\Fly_10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2926,583 +3008,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 28
-                      },
-                      {
-                        "x": 88,
-                        "y": 72
-                      },
-                      {
-                        "x": 28,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_2.png",
+                  "image": "assets\\Fly_7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5041,10 +4547,10 @@
         "objectName": "Player"
       },
       {
-        "objectName": "Monster"
+        "objectName": "Fly"
       },
       {
-        "objectName": "Fly"
+        "objectName": "Monster"
       },
       {
         "objectName": "Coin"
@@ -5175,14 +4681,17 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.42674596890982053,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -7298,6 +6807,7 @@
           "ambientLightColorB": 8002120,
           "ambientLightColorG": 6031360,
           "ambientLightColorR": 7844472,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -7315,6 +6825,7 @@
           "ambientLightColorB": 32,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -7343,6 +6854,7 @@
           "ambientLightColorB": 9191608,
           "ambientLightColorG": 6031360,
           "ambientLightColorR": 8756632,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -7360,6 +6872,7 @@
           "ambientLightColorB": -2147483616,
           "ambientLightColorG": 6031360,
           "ambientLightColorR": 11020320,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -7476,14 +6989,17 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41282536145602927,
+        "zoomFactor": 0.5564086693854875,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -7562,60 +7078,14 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 128.83111572265625,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "05cfe7e6-beb5-40ec-a692-9b459eb8cb39",
-          "width": 287,
-          "x": 1298,
-          "y": 265,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 96,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
-          "width": 72,
-          "x": 221,
-          "y": 147,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 227,
-          "layer": "",
-          "name": "Ladder",
-          "persistentUuid": "5e31f97d-bdfa-44ce-b525-f6bb1b99bdb5",
-          "width": 67.35904693603516,
-          "x": 549,
-          "y": 179,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 43.66571044921875,
           "layer": "UI",
           "name": "ScoreText",
           "persistentUuid": "85c756df-5168-4a9b-954d-3f1a66a4b173",
           "width": 247.33441162109375,
-          "x": 13.66558837890625,
-          "y": 12.565789222717285,
+          "x": 13,
+          "y": 52,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -7623,29 +7093,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 265.3482971191406,
-          "layer": "",
-          "name": "Platform4",
-          "persistentUuid": "dac6a253-9929-4369-b079-5ea42e96d4da",
-          "width": 320,
-          "x": 1802,
-          "y": 280,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
+          "depth": 1,
           "height": 78,
           "layer": "",
           "name": "Clouds",
           "persistentUuid": "7a4f19b7-6962-4686-9bfa-69dd5158902c",
-          "width": 2269,
-          "x": 0,
-          "y": 472,
+          "width": 2665,
+          "x": -8,
+          "y": 459,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -7659,134 +7115,9 @@
           "name": "LeftBoundary",
           "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
           "width": 135,
-          "x": 0,
-          "y": -256,
+          "x": -148,
+          "y": -248,
           "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 49,
-          "layer": "",
-          "name": "Checkpoint",
-          "persistentUuid": "8ea01fcc-2da7-4eb2-966c-1b50c561bf00",
-          "width": 75.38461303710938,
-          "x": 1512,
-          "y": 186,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 35,
-          "layer": "",
-          "name": "Coin",
-          "persistentUuid": "8f4f48ed-995c-4c89-b37c-a1e26bab5015",
-          "width": 27.925533294677734,
-          "x": 1908,
-          "y": 43,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 35,
-          "layer": "",
-          "name": "Coin",
-          "persistentUuid": "457309c4-eb4f-4740-a1d2-12e1d4b8dec5",
-          "width": 27.925533294677734,
-          "x": 414,
-          "y": 28,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 35,
-          "layer": "",
-          "name": "Coin",
-          "persistentUuid": "edd62113-fad1-4248-8d10-0ec8724b329b",
-          "width": 27.925533294677734,
-          "x": 1245,
-          "y": 67,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 35,
-          "layer": "",
-          "name": "Coin",
-          "persistentUuid": "e6379e27-54c7-4edf-9720-93935bd3a6df",
-          "width": 27.925533294677734,
-          "x": 1659,
-          "y": 67,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Monster",
-          "persistentUuid": "476f898e-5a8d-48bd-bbb3-1cabe592b8c8",
-          "width": 0,
-          "x": 850,
-          "y": 357,
-          "zOrder": 41,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Fly",
-          "persistentUuid": "cf7bf264-ecd2-4da5-a450-bccd03660e3e",
-          "width": 0,
-          "x": 1621,
-          "y": 184,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Fly",
-          "persistentUuid": "8641a775-4dc9-4396-ac7c-ba8b7a00dba7",
-          "width": 0,
-          "x": 1202,
-          "y": 236,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7809,208 +7140,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 21,
-          "layer": "",
-          "name": "BoundaryJumpThrough",
-          "persistentUuid": "7483dc27-84ed-436f-9611-ea3d03ec6df8",
-          "width": 77,
-          "x": 545,
-          "y": 178,
-          "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 97.86228942871094,
-          "layer": "",
-          "name": "Platform3",
-          "persistentUuid": "897ece0a-9bc4-470b-9d60-5bdc29242124",
-          "width": 232.15505981445312,
-          "x": 409,
-          "y": 388,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 95.92308044433594,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "5b30eed8-a7bd-4adc-b2da-7eec9e9adc87",
-          "width": 261,
-          "x": 738,
-          "y": 459,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 99,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "e05f88cc-8c5c-42d6-8ebd-a02a3a933517",
-          "width": 269.3721008300781,
-          "x": 106,
-          "y": 274,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 35,
-          "layer": "",
-          "name": "Coin",
-          "persistentUuid": "c609b5d6-28cf-4684-877a-4c2b7f8ec613",
-          "width": 27.925533294677734,
-          "x": 970,
-          "y": 33,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 123,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "43cdcc5b-382d-4dab-9fae-ef4c4bf99117",
-          "width": 274.0098876953125,
-          "x": 623,
-          "y": 99,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Monster",
-          "persistentUuid": "b8ff1ef5-ccd6-4411-b723-ba15ca05de4a",
-          "width": 0,
-          "x": 1867,
-          "y": 186,
-          "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 35,
-          "layer": "",
-          "name": "Coin",
-          "persistentUuid": "b275a1c4-8c3e-490a-8bd8-37095361c767",
-          "width": 27.925533294677734,
-          "x": 713,
-          "y": 33,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 35,
-          "layer": "",
-          "name": "Coin",
-          "persistentUuid": "ebcad3a0-b17e-44a4-bb58-1db4553c72ca",
-          "width": 27.925533294677734,
-          "x": 841,
-          "y": 33,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 49,
-          "layer": "",
-          "name": "Checkpoint",
-          "persistentUuid": "8139f892-065e-4b90-b332-09bf661fc701",
-          "width": 75.38461303710938,
-          "x": 434,
-          "y": 325,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 94,
-          "layer": "",
-          "name": "Platform3",
-          "persistentUuid": "d0192a27-3776-46d9-ad5f-577413f12395",
-          "width": 222.99269104003906,
-          "x": 1047,
-          "y": 346,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Fly",
-          "persistentUuid": "1989e88d-b9a1-4d50-bf0e-59255f899d23",
-          "width": 0,
-          "x": 366,
-          "y": 172,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 49,
-          "layer": "",
-          "name": "Checkpoint",
-          "persistentUuid": "ea983069-cccc-4be5-b905-c52b67ea8508",
-          "width": 75.38461303710938,
-          "x": 1081,
-          "y": 277,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 622,
+          "depth": 1,
+          "height": 679,
           "layer": "Background",
           "name": "BackgroundPlants",
           "persistentUuid": "03b6869d-198f-4807-b659-f2b863e21073",
-          "width": 2272,
-          "x": 0,
-          "y": -25,
+          "width": 2746,
+          "x": -110,
+          "y": -74,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -8018,29 +7155,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Portal",
-          "persistentUuid": "7efbc01f-ebde-481a-8ed2-824eb6c891f2",
-          "width": 0,
-          "x": 1845,
-          "y": -14,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
-          "height": 928,
+          "depth": 1,
+          "height": 917,
           "layer": "",
           "name": "RightBoundary",
           "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
           "width": 160,
-          "x": 2112,
-          "y": -256,
+          "x": 2560,
+          "y": -260,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -8049,13 +7172,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "depth": 1,
+          "height": 169,
           "layer": "",
           "name": "TopBoundary",
           "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
-          "width": 2272,
-          "x": 0,
-          "y": -256,
+          "width": 2671,
+          "x": -33,
+          "y": -253,
           "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
@@ -8064,59 +7188,15 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 1,
           "height": 128,
           "layer": "",
           "name": "BottomBoundary",
           "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
-          "width": 2272,
-          "x": 0,
-          "y": 544,
+          "width": 2684,
+          "x": -57,
+          "y": 531,
           "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 88,
-          "layer": "",
-          "name": "DoorParticles",
-          "persistentUuid": "348c0fb0-8cbd-4e90-8f0f-abe8cb151768",
-          "width": 94,
-          "x": 2040,
-          "y": 112,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "DoorParticles",
-          "persistentUuid": "a2c851cf-f49e-4040-943f-abfc83e71ade",
-          "width": 0,
-          "x": 2036,
-          "y": 262,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "DoorParticles",
-          "persistentUuid": "e46de36e-fd49-4060-b688-a277376035ad",
-          "width": 0,
-          "x": 2038,
-          "y": 185,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8133,6 +7213,361 @@
           "x": 0,
           "y": 0,
           "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "559989a7-6d14-4fd5-af76-5a37e0f85536",
+          "width": 0,
+          "x": 7,
+          "y": 370,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "b47f454a-e297-4bb7-b16e-e63cc2da3f01",
+          "width": 0,
+          "x": 287,
+          "y": 323,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "1ca69b8d-5e68-4673-a3ca-61c0a593bb91",
+          "width": 0,
+          "x": 579,
+          "y": 377,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "ec0f7135-2c58-4583-a50a-d09366aaeb6c",
+          "width": 0,
+          "x": 898,
+          "y": 377,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "93975210-0674-44f5-bb35-dba2e08f9891",
+          "width": 0,
+          "x": 1141,
+          "y": 315,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "62a58b74-1eb3-44e9-84f7-756a695a79c2",
+          "width": 0,
+          "x": 1379,
+          "y": 393,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "08658d8f-3707-46ff-a268-73f85491996f",
+          "width": 0,
+          "x": 1646,
+          "y": 326,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "d3a1e5b4-dd83-4190-8e61-63ade6c898fc",
+          "width": 0,
+          "x": 1923,
+          "y": 362,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Portal",
+          "persistentUuid": "5a90afc7-812a-4016-83d0-a6fe2c193e46",
+          "width": 0,
+          "x": 2286,
+          "y": -19,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 265,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform4",
+          "persistentUuid": "ea666741-1bd4-443b-943e-145e2268b63b",
+          "width": 501,
+          "x": 2174,
+          "y": 266,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 110,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "cffa5a5a-8547-4b24-b1a3-f5c03acd4b6a",
+          "width": 74,
+          "x": 32,
+          "y": 271,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "a429ee02-f23d-45de-b8f8-0b6cbfa179bf",
+          "width": 0,
+          "x": 243,
+          "y": 260,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "2eec7cad-09f3-4aac-84e8-5c9f803d6bf1",
+          "width": 0,
+          "x": 581,
+          "y": 304,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "323e8fb7-a4a5-4a85-b79f-fe47f7fc2085",
+          "width": 0,
+          "x": 851,
+          "y": 322,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "af695d10-cadd-4bf2-89df-6a1adf5e1c04",
+          "width": 0,
+          "x": 1084,
+          "y": 298,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "697e3b9b-d0b9-4b49-ac2b-7ac81919278f",
+          "width": 0,
+          "x": 1400,
+          "y": 327,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "c1f3fb52-e65f-41b4-a425-2144273a6dd0",
+          "width": 0,
+          "x": 1611,
+          "y": 305,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "31f1423d-4685-4bd6-89ba-03a16f12234c",
+          "width": 0,
+          "x": 1902,
+          "y": 322,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "c30930c6-a161-41b7-a196-d33408b68a99",
+          "width": 0,
+          "x": 2261,
+          "y": 235,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "c7eb6cb7-b28c-4f8a-ac14-fbb859a82977",
+          "width": 0,
+          "x": 654,
+          "y": 280,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fly",
+          "persistentUuid": "0839cb4f-deb1-4872-9bcb-e3f5f32f583e",
+          "width": 0,
+          "x": 941,
+          "y": 307,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fly",
+          "persistentUuid": "f04a0c35-642f-443a-9cc8-e77e2d25844b",
+          "width": 259,
+          "x": 1387,
+          "y": 340,
+          "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9599,6 +9034,7 @@
           "ambientLightColorB": 8002120,
           "ambientLightColorG": 6031360,
           "ambientLightColorR": 7844472,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -9616,6 +9052,7 @@
           "ambientLightColorB": 32,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -9644,6 +9081,7 @@
           "ambientLightColorB": 9191608,
           "ambientLightColorG": 6031360,
           "ambientLightColorR": 8756632,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -9661,6 +9099,7 @@
           "ambientLightColorB": -2147483616,
           "ambientLightColorG": 6031360,
           "ambientLightColorR": 11020320,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -9768,6 +9207,7 @@
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -9784,6 +9224,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": [
         {
@@ -10089,6 +9532,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -10344,6 +9788,17 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "SetScore"
+              },
+              {
+                "functionName": "IsRetryClicked"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "950",
@@ -10353,6 +9808,14 @@
               "name": "MaxScore"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "MaxScore"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -10360,6 +9823,7 @@
     {
       "author": "4ian",
       "category": "Camera",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Parallax for Tiled Sprite",
       "gdevelopVersion": "",
@@ -10393,6 +9857,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Move the image of a Tiled Sprite to follow the camera horizontally with a parallax effect. After adding this to an object, put the object on a layer that is not moving, behind the layer that is followed (for example, a layer called \"Background\").",
@@ -10473,6 +9940,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.5",
@@ -10487,7 +9962,17 @@
               "name": "FollowedLayer"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ParallaxFactor"
+              },
+              {
+                "propertyName": "FollowedLayer"
+              }
+            ]
+          }
         },
         {
           "description": "Move the image of a Tiled Sprite to follow the camera vertically with a parallax effect. After adding this to an object, put the object on a layer that is not moving, behind the layer that is followed (for example, a layer called \"Background\").",
@@ -10568,6 +10053,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.5",
@@ -10589,7 +10082,20 @@
               "name": "OffsetY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ParallaxFactor"
+              },
+              {
+                "propertyName": "FollowedLayer"
+              },
+              {
+                "propertyName": "OffsetY"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -10597,6 +10103,7 @@
     {
       "author": "",
       "category": "User interface",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Panel sprite button",
       "gdevelopVersion": ">=5.5.230",
@@ -10655,6 +10162,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "IsInGameEdition"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "The finite state machine used internally by the button object.",
@@ -11755,6 +11270,41 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "ResetState"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "IsPressedOutside"
+              },
+              {
+                "functionName": "TouchId"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -11822,7 +11372,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -12074,6 +11646,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -13256,6 +12829,56 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "SetLabelText"
+              },
+              {
+                "functionName": "SetLabelTextOp"
+              },
+              {
+                "functionName": "LabelText"
+              },
+              {
+                "functionName": "Activate"
+              },
+              {
+                "functionName": "IsActivated"
+              },
+              {
+                "functionName": "LabelOffset"
+              },
+              {
+                "functionName": "SetLabelOffset"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -13305,6 +12928,31 @@
               "name": "_PropertyMapping"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "LabelText"
+              },
+              {
+                "folderName": "States",
+                "children": [
+                  {
+                    "propertyName": "HoveredFadeOutDuration"
+                  },
+                  {
+                    "propertyName": "PressedLabelOffsetY"
+                  }
+                ]
+              },
+              {
+                "propertyName": "LabelOffset"
+              },
+              {
+                "propertyName": "_PropertyMapping"
+              }
+            ]
+          },
           "variants": [
             {
               "areaMaxX": 192,
@@ -13515,6 +13163,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -13584,6 +13233,7 @@
     {
       "author": "",
       "category": "Movement",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Platformer character animator",
       "gdevelopVersion": ">=5.5.222",
@@ -13615,6 +13265,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Change animations and horizontal flipping of a platformer character automatically.",
@@ -14845,6 +14498,43 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "onActivate"
+              },
+              {
+                "functionName": "EnableChangingAnimations"
+              },
+              {
+                "functionName": "EnableHorizontalFlipping"
+              },
+              {
+                "folderName": "Configure animations",
+                "children": [
+                  {
+                    "functionName": "SetIdleAnimationName"
+                  },
+                  {
+                    "functionName": "SetMoveAnimationName"
+                  },
+                  {
+                    "functionName": "SetJumpAnimationName"
+                  },
+                  {
+                    "functionName": "SetFallAnimationName"
+                  },
+                  {
+                    "functionName": "SetClimbAnimationName"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -14924,7 +14614,46 @@
               "name": "Flippable"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "EnableAnimationChanges"
+              },
+              {
+                "propertyName": "EnableHorizontalFlipping"
+              },
+              {
+                "folderName": "Animation names",
+                "children": [
+                  {
+                    "propertyName": "IdleAnimationName"
+                  },
+                  {
+                    "propertyName": "RunAnimationName"
+                  },
+                  {
+                    "propertyName": "JumpAnimationName"
+                  },
+                  {
+                    "propertyName": "FallAnimationName"
+                  },
+                  {
+                    "propertyName": "ClimbAnimationName"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PlatformerBehavior"
+              },
+              {
+                "propertyName": "Animation"
+              },
+              {
+                "propertyName": "Flippable"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -14932,6 +14661,7 @@
     {
       "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Movement",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Rectangular movement",
       "gdevelopVersion": ">=5.5.222",
@@ -15941,6 +15671,20 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "DistanceToClosestEdge"
+          },
+          {
+            "functionName": "MoveAlongBorderOfObject"
+          },
+          {
+            "functionName": "MoveToNearestCorner"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Move objects in a rectangular pattern.",
@@ -18657,6 +18401,158 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "TeleportToCorner"
+              },
+              {
+                "folderName": "Rectangular movement shape",
+                "children": [
+                  {
+                    "functionName": "Perimeter"
+                  },
+                  {
+                    "functionName": "SetLeft"
+                  },
+                  {
+                    "functionName": "SetTop"
+                  },
+                  {
+                    "functionName": "SetRight"
+                  },
+                  {
+                    "functionName": "SetBottom"
+                  }
+                ]
+              },
+              {
+                "functionName": "LoopDuration"
+              },
+              {
+                "functionName": "HorizontalEdgeDuration"
+              },
+              {
+                "functionName": "VerticalEdgeDuration"
+              },
+              {
+                "folderName": "Rectangular movement/Shape",
+                "children": [
+                  {
+                    "functionName": "Width"
+                  },
+                  {
+                    "functionName": "Height"
+                  },
+                  {
+                    "functionName": "Left"
+                  },
+                  {
+                    "functionName": "Top"
+                  },
+                  {
+                    "functionName": "Right"
+                  },
+                  {
+                    "functionName": "Bottom"
+                  }
+                ]
+              },
+              {
+                "folderName": "Rectangular movement speed",
+                "children": [
+                  {
+                    "functionName": "SetHorizontalEdgeDuration"
+                  },
+                  {
+                    "functionName": "SetVerticalEdgeDuration"
+                  },
+                  {
+                    "functionName": "SetClockwise"
+                  },
+                  {
+                    "functionName": "SetEasing"
+                  }
+                ]
+              },
+              {
+                "functionName": "ToogleClockwise"
+              },
+              {
+                "functionName": "IsMovingClockwise"
+              },
+              {
+                "functionName": "IsMovingLeft"
+              },
+              {
+                "functionName": "IsMovingUp"
+              },
+              {
+                "functionName": "IsMovingRight"
+              },
+              {
+                "functionName": "IsMovingDown"
+              },
+              {
+                "functionName": "IsOnLeft"
+              },
+              {
+                "functionName": "IsOnTop"
+              },
+              {
+                "functionName": "IsOnRight"
+              },
+              {
+                "functionName": "IsOnBottom"
+              },
+              {
+                "functionName": "TopRightDuration"
+              },
+              {
+                "functionName": "BottomRightDuration"
+              },
+              {
+                "functionName": "BottomLeftDuration"
+              },
+              {
+                "functionName": "EdgeProgress"
+              },
+              {
+                "functionName": "EdgeOriginX"
+              },
+              {
+                "functionName": "EdgeOriginY"
+              },
+              {
+                "functionName": "EdgeTargetY"
+              },
+              {
+                "functionName": "EdgeTargetX"
+              },
+              {
+                "functionName": "CurrentTime"
+              },
+              {
+                "functionName": "HalfCurrentTime"
+              },
+              {
+                "functionName": "DeltaX"
+              },
+              {
+                "functionName": "DeltaY"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "100",
@@ -18905,7 +18801,60 @@
               "name": "ToogleClockwise"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Dimension",
+                "children": [
+                  {
+                    "propertyName": "Width"
+                  },
+                  {
+                    "propertyName": "Height"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "Clockwise"
+                  },
+                  {
+                    "propertyName": "HorizontalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "VerticalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "Easing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Left"
+              },
+              {
+                "propertyName": "Top"
+              },
+              {
+                "propertyName": "Progress"
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "InitialPosition"
+              },
+              {
+                "propertyName": "ToogleClockwise"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -18913,6 +18862,7 @@
     {
       "author": "",
       "category": "Camera",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Smooth Camera",
       "gdevelopVersion": ">=5.5.222",
@@ -18952,6 +18902,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Smoothly scroll to follow an object.",
@@ -20857,6 +20810,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "OffsetX",
+              "group": "Camera configuration",
               "name": "SetOffsetXOp",
               "sentence": "",
               "events": [
@@ -20997,6 +20951,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "OffsetY",
+              "group": "Camera configuration",
               "name": "SetOffsetYOp",
               "sentence": "",
               "events": [
@@ -23354,6 +23309,141 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "MoveCameraCloser"
+              },
+              {
+                "functionName": "DoMoveCameraCloser"
+              },
+              {
+                "functionName": "WaitAndCatchUp"
+              },
+              {
+                "functionName": "DrawDebug"
+              },
+              {
+                "folderName": "Camera configuration",
+                "children": [
+                  {
+                    "functionName": "SetFollowOnX"
+                  },
+                  {
+                    "functionName": "SetFollowOnY"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaRight"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaLeft"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaTop"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaBottom"
+                  },
+                  {
+                    "functionName": "SetLeftwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetRightwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetUpwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetDownwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetLeftwardSpeed"
+                  },
+                  {
+                    "functionName": "SetRightwardSpeed"
+                  },
+                  {
+                    "functionName": "SetDownwardSpeed"
+                  },
+                  {
+                    "functionName": "SetUpwardSpeed"
+                  },
+                  {
+                    "functionName": "OffsetX"
+                  },
+                  {
+                    "functionName": "SetOffsetXOp"
+                  },
+                  {
+                    "functionName": "SetOffsetX"
+                  },
+                  {
+                    "functionName": "OffsetY"
+                  },
+                  {
+                    "functionName": "SetOffsetYOp"
+                  },
+                  {
+                    "functionName": "SetOffsetY"
+                  },
+                  {
+                    "functionName": "SetForecastTime"
+                  },
+                  {
+                    "functionName": "SetCameraDelay"
+                  }
+                ]
+              },
+              {
+                "folderName": "Private",
+                "children": [
+                  {
+                    "functionName": "FreeAreaLeft"
+                  },
+                  {
+                    "functionName": "FreeAreaRight"
+                  },
+                  {
+                    "functionName": "FreeAreaBottom"
+                  },
+                  {
+                    "functionName": "FreeAreaTop"
+                  },
+                  {
+                    "functionName": "UpdateDelayedPosition"
+                  },
+                  {
+                    "functionName": "AddForecastHistoryPosition"
+                  },
+                  {
+                    "functionName": "UpdateForecastedPosition"
+                  },
+                  {
+                    "functionName": "ProjectHistoryEnds"
+                  },
+                  {
+                    "functionName": "ForecastTimeRatio"
+                  }
+                ]
+              },
+              {
+                "functionName": "IsDelayed"
+              },
+              {
+                "functionName": "CurrentDelay"
+              },
+              {
+                "functionName": "IsWaiting"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.9",
@@ -23716,7 +23806,175 @@
               "name": "IsCalledManually"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeed"
+                  },
+                  {
+                    "propertyName": "RightwardSpeed"
+                  },
+                  {
+                    "propertyName": "UpwardSpeed"
+                  },
+                  {
+                    "propertyName": "DownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "propertyName": "FollowOnX"
+              },
+              {
+                "propertyName": "FollowOnY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "FollowFreeAreaLeft"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaRight"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "CameraOffsetX"
+                  },
+                  {
+                    "propertyName": "CameraOffsetY"
+                  }
+                ]
+              },
+              {
+                "folderName": "Timing",
+                "children": [
+                  {
+                    "propertyName": "CameraDelay"
+                  },
+                  {
+                    "propertyName": "ForecastTime"
+                  },
+                  {
+                    "propertyName": "ForecastHistoryDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "LogLeftwardSpeed"
+              },
+              {
+                "propertyName": "LogRightwardSpeed"
+              },
+              {
+                "propertyName": "LogDownwardSpeed"
+              },
+              {
+                "propertyName": "LogUpwardSpeed"
+              },
+              {
+                "propertyName": "DelayedCenterX"
+              },
+              {
+                "propertyName": "DelayedCenterY"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanX"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceX"
+              },
+              {
+                "propertyName": "ForecastHistoryCovariance"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearA"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearB"
+              },
+              {
+                "propertyName": "ForecastedX"
+              },
+              {
+                "propertyName": "ForecastedY"
+              },
+              {
+                "propertyName": "ProjectedNewestX"
+              },
+              {
+                "propertyName": "ProjectedNewestY"
+              },
+              {
+                "propertyName": "ProjectedOldestX"
+              },
+              {
+                "propertyName": "ProjectedOldestY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceY"
+              },
+              {
+                "propertyName": "Index"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpSpeed"
+              },
+              {
+                "propertyName": "CameraExtraDelay"
+              },
+              {
+                "propertyName": "WaitingSpeedXMax"
+              },
+              {
+                "propertyName": "WaitingSpeedYMax"
+              },
+              {
+                "propertyName": "WaitingEnd"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpDuration"
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "RightwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "UpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "DownwardSpeedMax"
+                  }
+                ]
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "IsCalledManually"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -23940,6 +24198,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -24061,7 +24327,71 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "SmoothCamera"
+              },
+              {
+                "propertyName": "JumpOriginY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "AirFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "AirFollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaBottom"
+                  }
+                ]
+              },
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeedMax"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -24069,6 +24399,7 @@
     {
       "author": "Elairyx, @Bouh",
       "category": "Game mechanic",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Checkpoints",
       "gdevelopVersion": "",
@@ -24402,12 +24733,27 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "SaveCheckpoint"
+          },
+          {
+            "functionName": "LoadCheckpoint"
+          },
+          {
+            "functionName": "CheckpointExist"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "Bouh",
       "category": "Input",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Gamepads (controllers)",
       "gdevelopVersion": ">=5.5.222",
@@ -26616,6 +26962,104 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onFirstSceneLoaded"
+          },
+          {
+            "functionName": "onSceneLoaded"
+          },
+          {
+            "functionName": "onScenePostEvents"
+          },
+          {
+            "functionName": "AcceleratedSpeed"
+          },
+          {
+            "functionName": "TriggerPressure"
+          },
+          {
+            "functionName": "StickForce"
+          },
+          {
+            "functionName": "StickRotationValue"
+          },
+          {
+            "functionName": "StickAngle"
+          },
+          {
+            "functionName": "AxisValue"
+          },
+          {
+            "functionName": "StickForceX"
+          },
+          {
+            "functionName": "StickForceY"
+          },
+          {
+            "functionName": "C_Button_released"
+          },
+          {
+            "functionName": "IsButtonJustPressed"
+          },
+          {
+            "functionName": "LastButtonID"
+          },
+          {
+            "functionName": "C_Any_Button_pressed"
+          },
+          {
+            "functionName": "LastButtonString"
+          },
+          {
+            "functionName": "GamepadCount"
+          },
+          {
+            "functionName": "C_Button_pressed"
+          },
+          {
+            "functionName": "Deadzone"
+          },
+          {
+            "functionName": "A_Set_deadzone"
+          },
+          {
+            "functionName": "C_Axis_pushed"
+          },
+          {
+            "functionName": "ConnectedGamepadsCount"
+          },
+          {
+            "functionName": "GamepadType"
+          },
+          {
+            "functionName": "C_Controller_type"
+          },
+          {
+            "functionName": "C_Controller_X_is_connected"
+          },
+          {
+            "functionName": "A_Vibrate_controller"
+          },
+          {
+            "functionName": "A_Advanced_Vibration_Controller"
+          },
+          {
+            "functionName": "A_Change_Vibration_Magnitude"
+          },
+          {
+            "functionName": "C_any_button_released"
+          },
+          {
+            "functionName": "WeakVibrationMagnitude"
+          },
+          {
+            "functionName": "StrongVibrationMagnitude"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Control a platformer character with a gamepad.",
@@ -27105,6 +27549,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -27185,7 +27637,34 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -27304,6 +27783,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -27380,7 +27867,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a gamepad.",
@@ -27488,6 +27996,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -27581,7 +28097,31 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "WalkStick"
+                  },
+                  {
+                    "propertyName": "CameraStick"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control camera rotations with a gamepad.",
@@ -27828,6 +28368,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationSpeedMax",
+              "group": "First person camera gamepad mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationSpeedMax",
               "sentence": "",
               "events": [
@@ -27908,6 +28449,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationAcceleration",
+              "group": "First person camera gamepad mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationAcceleration",
               "sentence": "",
               "events": [
@@ -27988,6 +28530,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationDeceleration",
+              "group": "First person camera gamepad mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationDeceleration",
               "sentence": "",
               "events": [
@@ -28068,6 +28611,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationSpeedMax",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalRotationSpeedMax",
               "sentence": "",
               "events": [
@@ -28148,6 +28692,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationAcceleration",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalRotationAcceleration",
               "sentence": "",
               "events": [
@@ -28228,6 +28773,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationDeceleration",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalRotationDeceleration",
               "sentence": "",
               "events": [
@@ -28308,6 +28854,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalAngleMin",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalAngleMin",
               "sentence": "",
               "events": [
@@ -28388,6 +28935,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalAngleMax",
+              "group": "First person camera gamepad mapper vertical rotation configuration",
               "name": "SetVerticalAngleMax",
               "sentence": "",
               "events": [
@@ -28468,6 +29016,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "OffsetZ",
+              "group": "First person camera gamepad mapper position configuration",
               "name": "SetOffsetZ",
               "sentence": "",
               "events": [
@@ -28504,6 +29053,91 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Layers and cameras",
+                "children": [
+                  {
+                    "functionName": "LookFromObjectEyes"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera gamepad mapper horizontal rotation configuration",
+                "children": [
+                  {
+                    "functionName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "HorizontalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera gamepad mapper vertical rotation configuration",
+                "children": [
+                  {
+                    "functionName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "VerticalAngleMin"
+                  },
+                  {
+                    "functionName": "SetVerticalAngleMin"
+                  },
+                  {
+                    "functionName": "VerticalAngleMax"
+                  },
+                  {
+                    "functionName": "SetVerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera gamepad mapper position configuration",
+                "children": [
+                  {
+                    "functionName": "OffsetZ"
+                  },
+                  {
+                    "functionName": "SetOffsetZ"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -28622,7 +29256,68 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Object3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "propertyName": "CameraStick"
+              },
+              {
+                "folderName": "Horizontal rotation",
+                "children": [
+                  {
+                    "propertyName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "Vertical rotation",
+                "children": [
+                  {
+                    "propertyName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMin"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "OffsetZ"
+                  }
+                ]
+              },
+              {
+                "propertyName": "CurrentRotationSpeedZ"
+              },
+              {
+                "propertyName": "CurrentRotationSpeedY"
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics car with a gamepad.",
@@ -28912,6 +29607,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -28992,7 +29695,34 @@
               "name": "HandBrakeButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCar3D"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "HandBrakeButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a gamepad.",
@@ -29576,6 +30306,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -29636,7 +30374,34 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "GamepadIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "UseArrows"
+                  },
+                  {
+                    "propertyName": "UseLeftStick"
+                  },
+                  {
+                    "propertyName": "UseRightStick"
+                  },
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -29644,6 +30409,7 @@
     {
       "author": "",
       "category": "Input",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Multitouch joystick and buttons (sprite)",
       "gdevelopVersion": ">=5.5.222",
@@ -31628,6 +32394,85 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "IsInGameEdition"
+          },
+          {
+            "functionName": "AcceleratedSpeed"
+          },
+          {
+            "functionName": "IsButtonJustPressed"
+          },
+          {
+            "functionName": "IsButtonPressed"
+          },
+          {
+            "functionName": "IsButtonReleased"
+          },
+          {
+            "functionName": "SetButtonState"
+          },
+          {
+            "functionName": "SetDeadZone"
+          },
+          {
+            "functionName": "DeadZone"
+          },
+          {
+            "functionName": "AngleTo4Way"
+          },
+          {
+            "functionName": "AngleTo8Way"
+          },
+          {
+            "functionName": "IsAngleIn4WayDirection"
+          },
+          {
+            "functionName": "IsAngleIn8WayDirection"
+          },
+          {
+            "functionName": "IsDirectionPushed4Way"
+          },
+          {
+            "functionName": "IsDirectionPushed8Way"
+          },
+          {
+            "functionName": "JoystickForce"
+          },
+          {
+            "functionName": "StickForce"
+          },
+          {
+            "functionName": "SetJoystickForce"
+          },
+          {
+            "functionName": "JoystickAngle"
+          },
+          {
+            "functionName": "StickAngle"
+          },
+          {
+            "functionName": "SetJoystickAngle"
+          },
+          {
+            "functionName": "StickForceX"
+          },
+          {
+            "functionName": "StickForceY"
+          },
+          {
+            "folderName": "Multitouch Joystick",
+            "children": [
+              {
+                "functionName": "HasTouchStartedOnScreenSide"
+              }
+            ]
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Joystick that can be controlled by interacting with a touchscreen.",
@@ -32532,6 +33377,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "ControllerIdentifier",
+              "group": "Multitouch Joystick configuration",
               "name": "SetControllerIdentifier",
               "sentence": "",
               "events": [
@@ -32612,6 +33458,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "JoystickIdentifier",
+              "group": "Multitouch Joystick configuration",
               "name": "SetJoystickIdentifier",
               "sentence": "",
               "events": [
@@ -32692,6 +33539,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "DeadZoneRadius",
+              "group": "Multitouch Joystick configuration",
               "name": "SetDeadZoneRadius",
               "sentence": "",
               "events": [
@@ -32784,6 +33632,76 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "JoystickForce"
+              },
+              {
+                "functionName": "SetJoystickForce"
+              },
+              {
+                "functionName": "JoystickAngle"
+              },
+              {
+                "functionName": "SetJoystickAngle"
+              },
+              {
+                "functionName": "StickForceX"
+              },
+              {
+                "functionName": "StickForceY"
+              },
+              {
+                "functionName": "IsDirectionPushed4Way"
+              },
+              {
+                "functionName": "IsDirectionPushed8Way"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "Reset"
+              },
+              {
+                "folderName": "Multitouch Joystick configuration",
+                "children": [
+                  {
+                    "functionName": "ControllerIdentifier"
+                  },
+                  {
+                    "functionName": "SetControllerIdentifier"
+                  },
+                  {
+                    "functionName": "JoystickIdentifier"
+                  },
+                  {
+                    "functionName": "SetJoystickIdentifier"
+                  },
+                  {
+                    "functionName": "DeadZoneRadius"
+                  },
+                  {
+                    "functionName": "SetDeadZoneRadius"
+                  }
+                ]
+              },
+              {
+                "functionName": "ForceStartPressing"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -32833,7 +33751,32 @@
               "name": "TouchIndex"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "JoystickAngle"
+              },
+              {
+                "propertyName": "JoystickForce"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              }
+            ]
+          }
         },
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
@@ -33326,6 +34269,26 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "IsJustPressed"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "IsReleased"
+              },
+              {
+                "functionName": "SetButtonState"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -33376,7 +34339,32 @@
               "name": "Radius"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "ButtonIdentifier"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              },
+              {
+                "propertyName": "IsReleased"
+              },
+              {
+                "propertyName": "IsJustPressed"
+              },
+              {
+                "propertyName": "Radius"
+              }
+            ]
+          }
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -33556,6 +34544,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -33598,7 +34594,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Property"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -33699,6 +34716,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -33741,7 +34766,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics character with a multitouch controller.",
@@ -33831,6 +34877,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -33873,7 +34927,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCharacter3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control camera rotations with a multitouch controller.",
@@ -34120,6 +35195,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationSpeedMax",
+              "group": "First person camera multitouch controller mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationSpeedMax",
               "sentence": "",
               "events": [
@@ -34200,6 +35276,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationAcceleration",
+              "group": "First person camera multitouch controller mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationAcceleration",
               "sentence": "",
               "events": [
@@ -34280,6 +35357,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "HorizontalRotationDeceleration",
+              "group": "First person camera multitouch controller mapper horizontal rotation configuration",
               "name": "SetHorizontalRotationDeceleration",
               "sentence": "",
               "events": [
@@ -34360,6 +35438,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationSpeedMax",
+              "group": "First person camera multitouch controller mapper vertical rotation configuration",
               "name": "SetVerticalRotationSpeedMax",
               "sentence": "",
               "events": [
@@ -34440,6 +35519,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationAcceleration",
+              "group": "First person camera multitouch controller mapper vertical rotation configuration",
               "name": "SetVerticalRotationAcceleration",
               "sentence": "",
               "events": [
@@ -34520,6 +35600,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalRotationDeceleration",
+              "group": "First person camera multitouch controller mapper vertical rotation configuration",
               "name": "SetVerticalRotationDeceleration",
               "sentence": "",
               "events": [
@@ -34600,6 +35681,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalAngleMin",
+              "group": "First person camera multitouch controller mapper vertical rotation configuration",
               "name": "SetVerticalAngleMin",
               "sentence": "",
               "events": [
@@ -34680,6 +35762,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "VerticalAngleMax",
+              "group": "First person camera multitouch controller mapper vertical rotation configuration",
               "name": "SetVerticalAngleMax",
               "sentence": "",
               "events": [
@@ -34760,6 +35843,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "OffsetZ",
+              "group": "First person camera multitouch controller mapper position configuration",
               "name": "SetOffsetZ",
               "sentence": "",
               "events": [
@@ -34796,6 +35880,91 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Layers and cameras",
+                "children": [
+                  {
+                    "functionName": "LookFromObjectEyes"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera multitouch controller mapper horizontal rotation configuration",
+                "children": [
+                  {
+                    "functionName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "HorizontalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "SetHorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera multitouch controller mapper vertical rotation configuration",
+                "children": [
+                  {
+                    "functionName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationSpeedMax"
+                  },
+                  {
+                    "functionName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationAcceleration"
+                  },
+                  {
+                    "functionName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "SetVerticalRotationDeceleration"
+                  },
+                  {
+                    "functionName": "VerticalAngleMin"
+                  },
+                  {
+                    "functionName": "SetVerticalAngleMin"
+                  },
+                  {
+                    "functionName": "VerticalAngleMax"
+                  },
+                  {
+                    "functionName": "SetVerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "First person camera multitouch controller mapper position configuration",
+                "children": [
+                  {
+                    "functionName": "OffsetZ"
+                  },
+                  {
+                    "functionName": "SetOffsetZ"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -34915,7 +36084,73 @@
               "name": "CurrentRotationSpeedY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Object3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "CameraStick"
+                  }
+                ]
+              },
+              {
+                "folderName": "Horizontal rotation",
+                "children": [
+                  {
+                    "propertyName": "HorizontalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "HorizontalRotationDeceleration"
+                  }
+                ]
+              },
+              {
+                "folderName": "Vertical rotation",
+                "children": [
+                  {
+                    "propertyName": "VerticalRotationSpeedMax"
+                  },
+                  {
+                    "propertyName": "VerticalRotationAcceleration"
+                  },
+                  {
+                    "propertyName": "VerticalRotationDeceleration"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMin"
+                  },
+                  {
+                    "propertyName": "VerticalAngleMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "OffsetZ"
+                  }
+                ]
+              },
+              {
+                "propertyName": "CurrentRotationSpeedZ"
+              },
+              {
+                "propertyName": "CurrentRotationSpeedY"
+              }
+            ]
+          }
         },
         {
           "description": "Control a 3D physics car with a multitouch controller.",
@@ -35034,6 +36269,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -35093,7 +36336,31 @@
               "name": "HandBrakeButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PhysicsCar3D"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "SteerJoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "SpeedJoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "HandBrakeButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -35606,6 +36873,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -35661,7 +36936,28 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -35755,6 +37051,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -36736,6 +38033,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "ControllerIdentifier",
+              "group": "Multitouch Joystick configuration",
               "name": "SetControllerIdentifier",
               "sentence": "",
               "events": [
@@ -36808,6 +38106,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "JoystickIdentifier",
+              "group": "Multitouch Joystick configuration",
               "name": "SetJoystickIdentifier",
               "sentence": "",
               "events": [
@@ -36880,6 +38179,7 @@
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "DeadZoneRadius",
+              "group": "Multitouch Joystick configuration",
               "name": "SetDeadZoneRadius",
               "sentence": "",
               "events": [
@@ -36913,6 +38213,85 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "UpdateConfiguration"
+              },
+              {
+                "functionName": "TeleportAndPress"
+              },
+              {
+                "functionName": "ParentTouchX"
+              },
+              {
+                "functionName": "ParentTouchY"
+              },
+              {
+                "functionName": "ActivateControl"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "JoystickForce"
+              },
+              {
+                "functionName": "StickForce"
+              },
+              {
+                "functionName": "StickForceX"
+              },
+              {
+                "functionName": "StickForceY"
+              },
+              {
+                "functionName": "JoystickAngle"
+              },
+              {
+                "functionName": "StickAngle"
+              },
+              {
+                "functionName": "IsDirectionPushed4Way"
+              },
+              {
+                "functionName": "IsDirectionPushed8Way"
+              },
+              {
+                "folderName": "Multitouch Joystick configuration",
+                "children": [
+                  {
+                    "functionName": "ControllerIdentifier"
+                  },
+                  {
+                    "functionName": "SetControllerIdentifier"
+                  },
+                  {
+                    "functionName": "JoystickIdentifier"
+                  },
+                  {
+                    "functionName": "SetJoystickIdentifier"
+                  },
+                  {
+                    "functionName": "DeadZoneRadius"
+                  },
+                  {
+                    "functionName": "SetDeadZoneRadius"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -36991,6 +38370,35 @@
               "name": "ShouldBeHiddenWhenReleased"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "ThumbAnchorOrigin"
+              },
+              {
+                "propertyName": "ThumbAnchorTarget"
+              },
+              {
+                "propertyName": "ThumbIsScaledProportionally"
+              },
+              {
+                "propertyName": "ParentOrigin"
+              },
+              {
+                "propertyName": "ShouldBeHiddenWhenReleased"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -36998,6 +38406,7 @@
     {
       "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Visual effect",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Shake object",
       "gdevelopVersion": ">=5.5.222",
@@ -37038,6 +38447,9 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Shake objects with translation and rotation.",
@@ -39024,8 +40436,27 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "ShakeObject_PositionAngle"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "StopShaking"
+              },
+              {
+                "functionName": "IsShaking"
+              }
+            ]
+          },
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         },
         {
           "description": "Shake objects with translation, rotation and scale.",
@@ -41398,6 +42829,23 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "ShakeObject_PositionAngleScale"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "StopShaking"
+              },
+              {
+                "functionName": "IsShaking"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -41410,7 +42858,14 @@
               "name": "Scale"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Scale"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -41418,6 +42873,7 @@
     {
       "author": "",
       "category": "Audio",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Volume Falloff",
       "gdevelopVersion": "",
@@ -41550,12 +43006,21 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "SetVolumeFalloff"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -41709,6 +43174,17 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "TriggerFlyDeath"
+          },
+          {
+            "functionName": "IsFlyDead"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "",
@@ -41957,6 +43433,20 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "IsOnFire"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -41969,7 +43459,14 @@
               "name": "Animation"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Animation"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -41977,6 +43474,7 @@
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -42276,12 +43774,30 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "AnimateFallingIntoPortal"
+          },
+          {
+            "functionName": "Bounce"
+          },
+          {
+            "functionName": "TriggerDeath"
+          },
+          {
+            "functionName": "IsSteppingOnFloor"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -42345,12 +43861,21 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "StretchToFillScreen"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "",
       "category": "Input",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Screen Orientation Checker",
       "gdevelopVersion": ">=5.5.222",
@@ -42452,6 +43977,20 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "IsInGameEdition"
+          },
+          {
+            "functionName": "ProjectOrientation"
+          },
+          {
+            "functionName": "onFirstSceneLoaded"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": [
         {
@@ -42609,6 +44148,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -43449,6 +44989,32 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "DrawBackground"
+              },
+              {
+                "functionName": "IsForceShown"
+              },
+              {
+                "functionName": "SetIsForceShown"
+              },
+              {
+                "functionName": "Message"
+              },
+              {
+                "functionName": "SetMessage"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -43482,6 +45048,28 @@
               "name": "CornerRadius"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "IsShown"
+              },
+              {
+                "propertyName": "IsForceShown"
+              },
+              {
+                "folderName": "Appearance",
+                "children": [
+                  {
+                    "propertyName": "Padding"
+                  },
+                  {
+                    "propertyName": "CornerRadius"
+                  }
+                ]
+              }
+            ]
+          },
           "variants": [
             {
               "areaMaxX": 400,
@@ -43672,6 +45260,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
