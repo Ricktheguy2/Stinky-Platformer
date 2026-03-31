@@ -915,6 +915,94 @@
         "name": "assets\\Fly_10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Fly_15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_15.png\"}",
+        "name": "assets\\Fly_11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_15.png\"}",
+        "name": "assets\\Fly_12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_15.png\"}",
+        "name": "assets\\Fly_13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_15.png\"}",
+        "name": "assets\\Fly_14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fly_20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Fly_20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Coin",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2931,7 +3019,6 @@
       "variables": [
         {
           "name": "dead",
-          "persistentUuid": "0ca8293c-03a8-4c61-8233-fbbd5e3c5d61",
           "type": "boolean",
           "value": false
         }
@@ -2972,7 +3059,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_10",
+                  "image": "assets\\Fly_15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2988,27 +3075,43 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 28
+                        "x": 41.5,
+                        "y": 32
                       },
                       {
-                        "x": 88,
-                        "y": 28
+                        "x": 43.5,
+                        "y": 24
                       },
                       {
-                        "x": 88,
-                        "y": 72
+                        "x": 57,
+                        "y": 21
                       },
                       {
-                        "x": 28,
-                        "y": 72
+                        "x": 68,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 64,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 55.5,
+                        "y": 44.25
+                      },
+                      {
+                        "x": 47,
+                        "y": 45
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Fly_7",
+                  "image": "assets\\Fly_16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3024,20 +3127,244 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 28
+                        "x": 41.5,
+                        "y": 32
                       },
                       {
-                        "x": 88,
-                        "y": 28
+                        "x": 43.5,
+                        "y": 24
                       },
                       {
-                        "x": 88,
-                        "y": 72
+                        "x": 57,
+                        "y": 21
                       },
                       {
-                        "x": 28,
-                        "y": 72
+                        "x": 68,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 64,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 55.5,
+                        "y": 44.25
+                      },
+                      {
+                        "x": 47,
+                        "y": 45
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fly_17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 32
+                      },
+                      {
+                        "x": 43.5,
+                        "y": 24
+                      },
+                      {
+                        "x": 57,
+                        "y": 21
+                      },
+                      {
+                        "x": 68,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 64,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 55.5,
+                        "y": 44.25
+                      },
+                      {
+                        "x": 47,
+                        "y": 45
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fly_18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 32
+                      },
+                      {
+                        "x": 43.5,
+                        "y": 24
+                      },
+                      {
+                        "x": 57,
+                        "y": 21
+                      },
+                      {
+                        "x": 68,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 64,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 55.5,
+                        "y": 44.25
+                      },
+                      {
+                        "x": 47,
+                        "y": 45
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fly_19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 32
+                      },
+                      {
+                        "x": 43.5,
+                        "y": 24
+                      },
+                      {
+                        "x": 57,
+                        "y": 21
+                      },
+                      {
+                        "x": 68,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 64,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 55.5,
+                        "y": 44.25
+                      },
+                      {
+                        "x": 47,
+                        "y": 45
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fly_20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 32
+                      },
+                      {
+                        "x": 43.5,
+                        "y": 24
+                      },
+                      {
+                        "x": 57,
+                        "y": 21
+                      },
+                      {
+                        "x": 68,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 64,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 55.5,
+                        "y": 44.25
+                      },
+                      {
+                        "x": 47,
+                        "y": 45
                       }
                     ]
                   ]
@@ -3059,16 +3386,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Coin",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Coin.png",
+                  "image": "assets\\Coin",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6996,7 +7324,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5564086693854875,
+        "zoomFactor": 0.30629425535285676,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7145,9 +7473,9 @@
           "layer": "Background",
           "name": "BackgroundPlants",
           "persistentUuid": "03b6869d-198f-4807-b659-f2b863e21073",
-          "width": 2746,
-          "x": -110,
-          "y": -74,
+          "width": 8160,
+          "x": -94,
+          "y": -68,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7162,8 +7490,8 @@
           "name": "RightBoundary",
           "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
           "width": 160,
-          "x": 2560,
-          "y": -260,
+          "x": 7991,
+          "y": -165,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -7177,7 +7505,7 @@
           "layer": "",
           "name": "TopBoundary",
           "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
-          "width": 2671,
+          "width": 8185,
           "x": -33,
           "y": -253,
           "zOrder": 59,
@@ -7193,7 +7521,7 @@
           "layer": "",
           "name": "BottomBoundary",
           "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
-          "width": 2684,
+          "width": 8071,
           "x": -57,
           "y": 531,
           "zOrder": 60,
@@ -7347,39 +7675,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Portal",
-          "persistentUuid": "5a90afc7-812a-4016-83d0-a6fe2c193e46",
-          "width": 0,
-          "x": 2286,
-          "y": -19,
-          "zOrder": 70,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 265,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform4",
-          "persistentUuid": "ea666741-1bd4-443b-943e-145e2268b63b",
-          "width": 501,
-          "x": 2174,
-          "y": 266,
-          "zOrder": 71,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 110,
@@ -7388,8 +7683,8 @@
           "name": "Player",
           "persistentUuid": "cffa5a5a-8547-4b24-b1a3-f5c03acd4b6a",
           "width": 74,
-          "x": 32,
-          "y": 271,
+          "x": 3027,
+          "y": 12,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -7541,15 +7836,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
           "keepRatio": true,
           "layer": "",
           "name": "Fly",
           "persistentUuid": "0839cb4f-deb1-4872-9bcb-e3f5f32f583e",
-          "width": 0,
-          "x": 941,
-          "y": 307,
+          "width": 361,
+          "x": 842,
+          "y": 319,
           "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
@@ -7564,10 +7860,138 @@
           "layer": "",
           "name": "Fly",
           "persistentUuid": "f04a0c35-642f-443a-9cc8-e77e2d25844b",
-          "width": 259,
-          "x": 1387,
+          "width": 288,
+          "x": 1358,
           "y": 340,
           "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "fa1b9e7e-f3ec-4a66-8a1f-86846176481a",
+          "width": 0,
+          "x": 2216,
+          "y": 374,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "4c9c49e4-88f0-46cc-ad26-9b335b52821d",
+          "width": 0,
+          "x": 2399,
+          "y": 136,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ladder",
+          "persistentUuid": "c2e390a4-62a9-4d91-ad07-d9276b96416d",
+          "width": 0,
+          "x": 2383,
+          "y": 159,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "e192d083-c1f2-41a6-8fd2-304e0f6037a0",
+          "width": 0,
+          "x": 2953,
+          "y": 114,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "42b86368-b982-492b-bb4e-7b70d819dbf8",
+          "width": 0,
+          "x": 3343,
+          "y": 122,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "77c7513c-dcf3-49f5-8162-e8ad41deba20",
+          "width": 0,
+          "x": 3751,
+          "y": 131,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "6791a6fa-9a65-4e63-8e3a-4d9658f1a1a0",
+          "width": 0,
+          "x": 4645,
+          "y": 301,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "da551220-a944-433d-9b95-921c9d0ae2e6",
+          "width": 0,
+          "x": 4150,
+          "y": 303,
+          "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
