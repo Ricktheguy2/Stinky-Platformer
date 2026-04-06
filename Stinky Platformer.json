@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 263,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -5034,7 +5034,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44113598384187114,
+        "zoomFactor": 0.3993588492392186,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7342,7 +7342,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8563151678569101,
+        "zoomFactor": 0.1250997082112368,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -10437,8 +10437,8 @@
     {
       "b": 26,
       "disableInputWhenNotFocused": true,
-      "mangledName": "level4_40_63_41",
-      "name": "level4(?)",
+      "mangledName": "Start_32level4_40_63_41",
+      "name": "Start level4(?)",
       "r": 11,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -10456,11 +10456,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-<<<<<<< HEAD
-        "zoomFactor": 0.19902109113379737,
-=======
-        "zoomFactor": 0.26824190283958615,
->>>>>>> be10aba42d6698877705c74d9f5784f763f1b5e0
+        "zoomFactor": 0.26824190283958604,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12779,9 +12775,12 @@
           "defaultName": "",
           "description": "",
           "fullName": "",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "GameOverDialog",
+          "previewIconUrl": "",
           "objects": [
             {
               "adaptCollisionMaskAutomatically": true,
@@ -13404,8 +13403,11 @@
         {
           "description": "Move the image of a Tiled Sprite to follow the camera horizontally with a parallax effect. After adding this to an object, put the object on a layer that is not moving, behind the layer that is followed (for example, a layer called \"Background\").",
           "fullName": "Horizontal Parallax for a Tiled Sprite",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "HorizontalTiledSpriteParallax",
           "objectType": "TiledSpriteObject::TiledSprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -13517,8 +13519,11 @@
         {
           "description": "Move the image of a Tiled Sprite to follow the camera vertically with a parallax effect. After adding this to an object, put the object on a layer that is not moving, behind the layer that is followed (for example, a layer called \"Background\").",
           "fullName": "Vertical Parallax for a Tiled Sprite",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "VerticalTiledSpriteParallax",
           "objectType": "TiledSpriteObject::TiledSprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -13714,8 +13719,11 @@
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -14948,9 +14956,12 @@
           "defaultName": "Button",
           "description": "A button that can be customized.",
           "fullName": "Button (panel sprite)",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -16812,8 +16823,11 @@
         {
           "description": "Change animations and horizontal flipping of a platformer character automatically.",
           "fullName": "Platformer character animator",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PlatformerCharacterAnimator",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -19229,8 +19243,11 @@
         {
           "description": "Move objects in a rectangular pattern.",
           "fullName": "Rectangular movement",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "RectangleMovement",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -22449,8 +22466,11 @@
         {
           "description": "Smoothly scroll to follow an object.",
           "fullName": "Smooth Camera",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "SmoothCamera",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -27519,8 +27539,11 @@
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
           "fullName": "Smooth platformer camera",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "SmoothPlatformerCamera",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -30604,8 +30627,11 @@
         {
           "description": "Control a platformer character with a gamepad.",
           "fullName": "Platformer gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PlatformerGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -31209,8 +31235,11 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D platformer gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Platformer3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -31433,8 +31462,11 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D shooter gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Shooter3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -31666,8 +31698,11 @@
         {
           "description": "Control camera rotations with a gamepad.",
           "fullName": "First person camera gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FirstPersonGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -32862,8 +32897,11 @@
         {
           "description": "Control a 3D physics car with a gamepad.",
           "fullName": "3D car gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PhysicsCar3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -33267,8 +33305,11 @@
         {
           "description": "Control a top-down character with a gamepad.",
           "fullName": "Top-down gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TopDownGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -36017,8 +36058,11 @@
         {
           "description": "Joystick that can be controlled by interacting with a touchscreen.",
           "fullName": "Multitouch Joystick",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "MultitouchJoystick",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -37321,8 +37365,11 @@
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
           "fullName": "Multitouch button",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "MultitouchButton",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -37909,8 +37956,11 @@
         {
           "description": "Control a platformer character with a multitouch controller.",
           "fullName": "Platformer multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PlatformerMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -38160,8 +38210,11 @@
         {
           "description": "Control a 3D physics character with a multitouch controller.",
           "fullName": "3D platformer multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Platformer3DMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -38332,8 +38385,11 @@
         {
           "description": "Control a 3D physics character with a multitouch controller.",
           "fullName": "3D shooter multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Shooter3DMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -38493,8 +38549,11 @@
         {
           "description": "Control camera rotations with a multitouch controller.",
           "fullName": "First person camera multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FirstPersonMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -39695,8 +39754,11 @@
         {
           "description": "Control a 3D physics car with a multitouch controller.",
           "fullName": "3D car multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PhysicsCar3DMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -39905,8 +39967,11 @@
         {
           "description": "Control a top-down character with a multitouch controller.",
           "fullName": "Top-down multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TopDownMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -40511,8 +40576,11 @@
           "defaultName": "Joystick",
           "description": "Joystick for touchscreens.",
           "fullName": "Multitouch Joystick",
+          "helpPath": "",
+          "iconUrl": "",
           "isUsingLegacyInstancesRenderer": true,
           "name": "SpriteMultitouchJoystick",
+          "previewIconUrl": "",
           "objects": [
             {
               "adaptCollisionMaskAutomatically": false,
@@ -41994,8 +42062,11 @@
         {
           "description": "Shake objects with translation and rotation.",
           "fullName": "Shake object (position, angle)",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ShakeObject_PositionAngle",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "description": "Shake an object, using one or more ways to shake (position, angle). Make sure to \"Stop shaking\" before starting a new shake if it uses different parameters. ",
@@ -44001,8 +44072,11 @@
         {
           "description": "Shake objects with translation, rotation and scale.",
           "fullName": "Shake object (position, angle, scale)",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ShakeObject_PositionAngleScale",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "description": "Shake an object, using one or more ways to shake (position, angle, scale). Make sure to \"Stop shaking\" before starting a new shake if it uses different parameters.",
@@ -46729,8 +46803,11 @@
         {
           "description": "",
           "fullName": "",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "MonsterEnemy",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -47543,9 +47620,12 @@
           "defaultName": "",
           "description": "Automatically display a screen asking the player to rotate their screen if needed - on mobile phones and tablets only. Set up Anchor behavior on this object so that top/bottom/left/right edges are anchored to the screen top/bottom/left/right.",
           "fullName": "Screen Orientation Checker",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "ScreenOrientationChecker",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
