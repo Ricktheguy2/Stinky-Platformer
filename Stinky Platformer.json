@@ -1002,6 +1002,14 @@
         "name": "assets\\Coin",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -12759,7 +12767,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3737293427120252,
+        "zoomFactor": 0.520700234099858,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12863,8 +12871,8 @@
           "name": "Player",
           "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
           "width": 72,
-          "x": 289,
-          "y": 265,
+          "x": 455,
+          "y": 206,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -12893,8 +12901,8 @@
           "name": "Platform4",
           "persistentUuid": "dac6a253-9929-4369-b079-5ea42e96d4da",
           "width": 320,
-          "x": 1794,
-          "y": 4036,
+          "x": 1209,
+          "y": 4033,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -12909,7 +12917,7 @@
           "name": "LeftBoundary",
           "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
           "width": 135,
-          "x": 0,
+          "x": -583,
           "y": -256,
           "zOrder": 38,
           "numberProperties": [],
@@ -13064,8 +13072,8 @@
           "name": "Platform3",
           "persistentUuid": "897ece0a-9bc4-470b-9d60-5bdc29242124",
           "width": 232.15505981445312,
-          "x": 528,
-          "y": 629,
+          "x": 571,
+          "y": 822,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -13094,8 +13102,8 @@
           "name": "Platform1",
           "persistentUuid": "e05f88cc-8c5c-42d6-8ebd-a02a3a933517",
           "width": 269.3721008300781,
-          "x": 189,
-          "y": 435,
+          "x": 380,
+          "y": 313,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -13245,8 +13253,8 @@
           "name": "BackgroundPlants",
           "persistentUuid": "03b6869d-198f-4807-b659-f2b863e21073",
           "width": 2272,
-          "x": 0,
-          "y": -25,
+          "x": -583,
+          "y": -36,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -13276,8 +13284,8 @@
           "name": "RightBoundary",
           "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
           "width": 160,
-          "x": 2112,
-          "y": -256,
+          "x": 1530,
+          "y": -258,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -13291,7 +13299,7 @@
           "name": "TopBoundary",
           "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
           "width": 2272,
-          "x": 0,
+          "x": -583,
           "y": -256,
           "zOrder": 59,
           "numberProperties": [],
@@ -13306,7 +13314,7 @@
           "name": "BottomBoundary",
           "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
           "width": 2272,
-          "x": 0,
+          "x": -583,
           "y": 4299,
           "zOrder": 60,
           "numberProperties": [],
@@ -13399,8 +13407,8 @@
           "name": "Platform1",
           "persistentUuid": "ae4130f0-7502-4c7a-ab63-236d654a4333",
           "width": 0,
-          "x": 1240,
-          "y": 4095,
+          "x": 8,
+          "y": 4035,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -13415,15 +13423,77 @@
           "name": "Platform1",
           "persistentUuid": "b3378073-6f17-4d0d-a49e-3275cb19a2f9",
           "width": 0,
-          "x": 530,
-          "y": 871,
+          "x": 1109,
+          "y": 1228,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 42
+                          },
+                          {
+                            "x": 52,
+                            "y": 42
+                          },
+                          {
+                            "x": 52,
+                            "y": 85
+                          },
+                          {
+                            "x": 11,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
@@ -13434,7 +13504,12 @@
             "folderName": "Markers"
           },
           {
-            "folderName": "Particles"
+            "folderName": "Particles",
+            "children": [
+              {
+                "objectName": "NewSprite"
+              }
+            ]
           },
           {
             "folderName": "Platforms"
