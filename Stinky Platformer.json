@@ -1046,6 +1046,14 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1186,119 +1194,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Red hero_Idle_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20.5,
-                        "y": 22
-                      },
-                      {
-                        "x": 124.5,
-                        "y": 22
-                      },
-                      {
-                        "x": 124.5,
-                        "y": 182
-                      },
-                      {
-                        "x": 20.5,
-                        "y": 182
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Red hero_Idle_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20.5,
-                        "y": 22
-                      },
-                      {
-                        "x": 124.5,
-                        "y": 22
-                      },
-                      {
-                        "x": 124.5,
-                        "y": 182
-                      },
-                      {
-                        "x": 20.5,
-                        "y": 182
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Red hero_Idle_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20.5,
-                        "y": 22
-                      },
-                      {
-                        "x": 124.5,
-                        "y": 22
-                      },
-                      {
-                        "x": 124.5,
-                        "y": 182
-                      },
-                      {
-                        "x": 20.5,
-                        "y": 182
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Red hero_Idle_4.png",
+                  "image": "Idle",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
