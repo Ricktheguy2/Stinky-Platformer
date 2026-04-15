@@ -1134,6 +1134,14 @@
         "name": "assets\\Coin5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Platform2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Platform 1",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3452,16 +3460,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Platform 1",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Platform 1.png",
+                  "image": "assets\\Platform 1",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
