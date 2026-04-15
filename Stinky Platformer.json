@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 265,
+    "build": 266,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -978,7 +978,7 @@
       {
         "file": "assets/Fly_16.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_16.png\"}",
         "name": "assets\\Fly_15",
         "smoothed": true,
         "userAdded": false
@@ -986,7 +986,7 @@
       {
         "file": "assets/Fly_16.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_16.png\"}",
         "name": "assets\\Fly_16",
         "smoothed": true,
         "userAdded": false
@@ -994,7 +994,7 @@
       {
         "file": "assets/Fly_17.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_17.png\"}",
         "name": "assets\\Fly_17",
         "smoothed": true,
         "userAdded": false
@@ -1002,7 +1002,7 @@
       {
         "file": "assets/Fly_18.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_18.png\"}",
         "name": "assets\\Fly_18",
         "smoothed": true,
         "userAdded": false
@@ -1010,7 +1010,7 @@
       {
         "file": "assets/Fly_19.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_19.png\"}",
         "name": "assets\\Fly_19",
         "smoothed": true,
         "userAdded": false
@@ -1018,7 +1018,7 @@
       {
         "file": "assets/Fly_20.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fly_20.png\"}",
         "name": "assets\\Fly_20",
         "smoothed": true,
         "userAdded": false
@@ -1100,6 +1100,38 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Fall",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin3.png\"}",
+        "name": "assets\\Coin2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin3.png\"}",
+        "name": "assets\\Coin3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin4.png\"}",
+        "name": "assets\\Coin4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin5.png\"}",
+        "name": "assets\\Coin5",
         "smoothed": true,
         "userAdded": false
       }
@@ -2499,20 +2531,93 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 0,
+          "Height": 34,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 0,
+          "VerticalEdgeDuration": -3.65,
+          "Left": 1,
+          "Top": 1,
+          "Progress": 1,
+          "OldX": 1,
+          "OldY": 1,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Bottom-left corner",
+          "ToogleClockwise": false
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Coin",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Coin",
+                  "image": "assets\\Coin2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Coin3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Coin4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Coin5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
