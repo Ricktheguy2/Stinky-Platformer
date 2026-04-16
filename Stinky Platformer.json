@@ -1138,16 +1138,39 @@
       {
         "file": "assets/Platform2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Platform2.png\"}",
         "name": "assets\\Platform 1",
         "smoothed": true,
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
         "file": "messy-kitchen-counter-in-need-of-cleanup-2P62H23.jpg",
         "kind": "image",
         "metadata": "",
         "name": "messy-kitchen-counter-in-need-of-cleanup-2P62H23.jpg",
+=======
+        "file": "assets/Platform3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Platform2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Platform4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Platform3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Platform5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Platform4",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       }
@@ -3478,7 +3501,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Platform 1",
+                  "image": "assets\\Platform4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
