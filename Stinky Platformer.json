@@ -1144,12 +1144,6 @@
         "userAdded": false
       },
       {
-<<<<<<< Updated upstream
-        "file": "messy-kitchen-counter-in-need-of-cleanup-2P62H23.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "messy-kitchen-counter-in-need-of-cleanup-2P62H23.jpg",
-=======
         "file": "assets/Platform3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1170,7 +1164,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\Platform4",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       }
