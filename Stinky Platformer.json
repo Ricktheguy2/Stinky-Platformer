@@ -3510,20 +3510,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 14
+                        "x": 30.5,
+                        "y": 31
                       },
                       {
-                        "x": 259,
-                        "y": 14
+                        "x": 237,
+                        "y": 31
                       },
                       {
-                        "x": 246,
-                        "y": 68.25
+                        "x": 237,
+                        "y": 84.5
                       },
                       {
-                        "x": 32.5,
-                        "y": 69.75
+                        "x": 31,
+                        "y": 84
                       }
                     ]
                   ]
@@ -4273,11 +4273,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/start-level4"
+      "referenceTo": "/layouts/level3"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level9000"
+      "referenceTo": "/layouts/level4"
     }
   ],
   "externalEvents": [],
