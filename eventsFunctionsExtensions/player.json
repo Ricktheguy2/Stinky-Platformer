@@ -209,6 +209,11 @@
           "description": "",
           "name": "Player",
           "type": "objectList"
+        },
+        {
+          "description": "",
+          "name": "Parameter",
+          "type": "objectList"
         }
       ],
       "objectGroups": []
