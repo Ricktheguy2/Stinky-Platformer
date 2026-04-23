@@ -1166,6 +1166,22 @@
         "name": "assets\\Platform4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Platform6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Platform5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "boundary.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boundary.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3494,7 +3510,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Platform4",
+                  "image": "assets\\Platform5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3510,20 +3526,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 30.5,
-                        "y": 31
+                        "x": 244.5,
+                        "y": 71
                       },
                       {
-                        "x": 237,
-                        "y": 31
+                        "x": 15,
+                        "y": 71
                       },
                       {
-                        "x": 237,
-                        "y": 84.5
+                        "x": 1,
+                        "y": 36.5
                       },
                       {
-                        "x": 31,
-                        "y": 84
+                        "x": 13,
+                        "y": 11.5
+                      },
+                      {
+                        "x": 262,
+                        "y": 11.5
+                      },
+                      {
+                        "x": 265.5,
+                        "y": 43.5
                       }
                     ]
                   ]
