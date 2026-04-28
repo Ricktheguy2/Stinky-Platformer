@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5564086693854877,
+    "zoomFactor": 0.9150393103731516,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1325,6 +1325,7 @@
                   "parameters": [
                     "",
                     "Player",
+                    "Player",
                     ""
                   ]
                 }
@@ -1566,6 +1567,7 @@
                   "parameters": [
                     "",
                     "Player",
+                    "Player",
                     ""
                   ]
                 }
@@ -1667,6 +1669,7 @@
                       },
                       "parameters": [
                         "",
+                        "Player",
                         "Player",
                         ""
                       ]

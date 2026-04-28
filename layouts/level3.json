@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5751709533766803,
+    "zoomFactor": 0.4560112348272962,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1310,6 +1310,7 @@
                   "parameters": [
                     "",
                     "Player",
+                    "Player",
                     ""
                   ]
                 }
@@ -1442,6 +1443,7 @@
                   "parameters": [
                     "",
                     "Player",
+                    "Player",
                     ""
                   ]
                 }
@@ -1551,6 +1553,7 @@
                   "parameters": [
                     "",
                     "Player",
+                    "Player",
                     ""
                   ]
                 }
@@ -1652,6 +1655,7 @@
                       },
                       "parameters": [
                         "",
+                        "Player",
                         "Player",
                         ""
                       ]
@@ -1977,6 +1981,24 @@
                     "RightBoundary.X()",
                     "BottomBoundary.Y()",
                     "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DebuggerTools::EnableDebugDraw"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "yes",
+                    "no",
                     ""
                   ]
                 }

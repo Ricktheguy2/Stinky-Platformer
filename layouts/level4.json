@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5564086693855035,
+    "zoomFactor": 0.2510270405351963,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1051,44 +1051,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "KillBoundary",
-      "persistentUuid": "97f1c4ba-2a5d-4b60-8160-d2375f08cad3",
-      "width": 1504,
-      "x": -459,
-      "y": 1328,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 46,
-      "keepRatio": true,
-      "layer": "",
-      "name": "KillBoundary",
-      "persistentUuid": "a2abf486-84a7-4ff4-a3cc-d024620930a9",
-      "width": 1463,
-      "x": -523,
-      "y": 2241,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 46,
-      "keepRatio": true,
-      "layer": "",
-      "name": "KillBoundary",
-      "persistentUuid": "d03dccd2-57cb-4973-9ff1-fb9a83200420",
-      "width": 1431,
-      "x": 122,
-      "y": 2949,
+      "persistentUuid": "95052104-1c61-46ed-93bf-f7bd77605630",
+      "width": 1524,
+      "x": 54,
+      "y": 864,
       "zOrder": 142,
       "numberProperties": [],
       "stringProperties": [],
@@ -1102,11 +1068,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "KillBoundary",
-      "persistentUuid": "4421c1ed-98c6-4410-a78a-9ecd056ee0ce",
-      "width": 1218,
-      "x": 405,
-      "y": 574,
-      "zOrder": 143,
+      "persistentUuid": "a4a458df-f58f-4359-a633-f934a45983cc",
+      "width": 1524,
+      "x": -510,
+      "y": 1334,
+      "zOrder": 142,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1119,11 +1085,28 @@
       "keepRatio": true,
       "layer": "",
       "name": "KillBoundary",
-      "persistentUuid": "3a2eb298-6d98-4c0e-ab85-de780ea852d7",
-      "width": 1520,
-      "x": 40,
-      "y": 889,
-      "zOrder": 143,
+      "persistentUuid": "38bda8f8-b557-48ec-812b-6b7ade0c9eec",
+      "width": 1535,
+      "x": -477,
+      "y": 2211,
+      "zOrder": 142,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "KillBoundary",
+      "persistentUuid": "1761739d-e74b-4999-a316-7de978f269e5",
+      "width": 1524,
+      "x": 59,
+      "y": 2964,
+      "zOrder": 142,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1195,6 +1178,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "KillBoundary",
+      "persistentUuid": "4b9a3253-f630-4b9d-beec-0d2180905141",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1262,10 +1246,10 @@
         "folderName": "Markers",
         "children": [
           {
-            "objectName": "KillBoundary"
+            "objectName": "NewSprite"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "KillBoundary"
           }
         ]
       },
@@ -1963,6 +1947,7 @@
                   "parameters": [
                     "",
                     "Player",
+                    "Player",
                     ""
                   ]
                 }
@@ -2095,6 +2080,7 @@
                   "parameters": [
                     "",
                     "Player",
+                    "Player",
                     ""
                   ]
                 }
@@ -2204,6 +2190,7 @@
                   "parameters": [
                     "",
                     "Player",
+                    "Player",
                     ""
                   ]
                 }
@@ -2305,6 +2292,7 @@
                       },
                       "parameters": [
                         "",
+                        "Player",
                         "Player",
                         ""
                       ]
