@@ -1985,24 +1985,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DebuggerTools::EnableDebugDraw"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "yes",
-                    "no",
-                    ""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
