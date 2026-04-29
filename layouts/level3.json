@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4560112348272962,
+    "zoomFactor": 0.386331619508949,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -388,7 +388,7 @@
       "persistentUuid": "c609b5d6-28cf-4684-877a-4c2b7f8ec613",
       "width": 27.925533294677734,
       "x": 1070,
-      "y": -72,
+      "y": -59,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -402,8 +402,8 @@
       "name": "Platform2",
       "persistentUuid": "43cdcc5b-382d-4dab-9fae-ef4c4bf99117",
       "width": 274.0098876953125,
-      "x": 884,
-      "y": 153,
+      "x": 901,
+      "y": 182,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -433,7 +433,7 @@
       "persistentUuid": "b275a1c4-8c3e-490a-8bd8-37095361c767",
       "width": 27.925533294677734,
       "x": 928,
-      "y": 105,
+      "y": 110,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -624,7 +624,7 @@
       "persistentUuid": "44219bf8-a4ca-4de5-84ab-a88056381b1e",
       "width": 268,
       "x": 954,
-      "y": -24,
+      "y": -10,
       "zOrder": 141,
       "numberProperties": [],
       "stringProperties": [],
@@ -1989,20 +1989,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DebuggerTools::EnableDebugDraw"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "yes",
-                    "no",
-                    ""
-                  ]
-                }
-              ]
+              "actions": []
             }
           ],
           "parameters": []
