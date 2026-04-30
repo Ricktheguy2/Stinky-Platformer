@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5037148046217084,
+    "zoomFactor": 0.4411359838418716,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -184,7 +184,7 @@
       "name": "LeftBoundary",
       "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
       "width": 135,
-      "x": 0,
+      "x": -127,
       "y": -256,
       "zOrder": 38,
       "numberProperties": [],
@@ -564,7 +564,7 @@
       "name": "RightBoundary",
       "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
       "width": 160,
-      "x": 2112,
+      "x": 2163,
       "y": -256,
       "zOrder": 58,
       "numberProperties": [],
@@ -580,7 +580,7 @@
       "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
       "width": 2272,
       "x": 0,
-      "y": -256,
+      "y": -287,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -595,7 +595,7 @@
       "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
       "width": 2272,
       "x": 0,
-      "y": 544,
+      "y": 652,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -1328,6 +1328,16 @@
                     "Player",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
+                  ]
                 }
               ]
             }
@@ -1459,6 +1469,16 @@
                     "",
                     "Player",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
                   ]
                 }
               ]
@@ -1672,6 +1692,16 @@
                         "Player",
                         "Player",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Score",
+                        "-",
+                        "25"
                       ]
                     }
                   ]

@@ -2132,6 +2132,16 @@
                     "Player",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
+                  ]
                 }
               ]
             }
@@ -2264,6 +2274,16 @@
                     "Player",
                     "Player",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
                   ]
                 }
               ]
@@ -2476,6 +2496,16 @@
                         "",
                         "Player",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Score",
+                        "-",
+                        "25"
                       ]
                     }
                   ]

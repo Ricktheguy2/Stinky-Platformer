@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.42674596890983374,
+    "zoomFactor": 0.2682419028395909,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -124,8 +124,8 @@
       "name": "Player",
       "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
       "width": 112,
-      "x": 471,
-      "y": 255,
+      "x": 475,
+      "y": 241,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -170,7 +170,7 @@
       "name": "LeftBoundary",
       "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
       "width": 135,
-      "x": -583,
+      "x": -699,
       "y": -256,
       "zOrder": 38,
       "numberProperties": [],
@@ -397,7 +397,7 @@
       "name": "RightBoundary",
       "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
       "width": 143,
-      "x": 1552,
+      "x": 1681,
       "y": -257,
       "zOrder": 58,
       "numberProperties": [],
@@ -428,7 +428,7 @@
       "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
       "width": 2272,
       "x": -579,
-      "y": 4293,
+      "y": 4320,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -1052,7 +1052,7 @@
       "layer": "",
       "name": "KillBoundary",
       "persistentUuid": "95052104-1c61-46ed-93bf-f7bd77605630",
-      "width": 1524,
+      "width": 1703,
       "x": 54,
       "y": 864,
       "zOrder": 142,
@@ -1069,8 +1069,8 @@
       "layer": "",
       "name": "KillBoundary",
       "persistentUuid": "a4a458df-f58f-4359-a633-f934a45983cc",
-      "width": 1398,
-      "x": -510,
+      "width": 1476,
+      "x": -588,
       "y": 1327,
       "zOrder": 142,
       "numberProperties": [],
@@ -1086,8 +1086,8 @@
       "layer": "",
       "name": "KillBoundary",
       "persistentUuid": "38bda8f8-b557-48ec-812b-6b7ade0c9eec",
-      "width": 1502,
-      "x": -477,
+      "width": 1733,
+      "x": -708,
       "y": 2160,
       "zOrder": 142,
       "numberProperties": [],
@@ -1103,7 +1103,7 @@
       "layer": "",
       "name": "KillBoundary",
       "persistentUuid": "1761739d-e74b-4999-a316-7de978f269e5",
-      "width": 1524,
+      "width": 1632,
       "x": 93,
       "y": 2941,
       "zOrder": 142,
@@ -1926,6 +1926,16 @@
                     "Player",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
+                  ]
                 }
               ]
             },
@@ -1965,6 +1975,16 @@
                     "Player",
                     "Player",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
                   ]
                 }
               ]
@@ -2098,6 +2118,16 @@
                     "Player",
                     "Player",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
                   ]
                 }
               ]
@@ -2311,6 +2341,16 @@
                         "Player",
                         "Player",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Score",
+                        "-",
+                        "25"
                       ]
                     }
                   ]
