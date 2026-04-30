@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.386331619508949,
+    "zoomFactor": 0.3383358549274592,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -124,8 +124,8 @@
       "name": "Player",
       "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
       "width": 104,
-      "x": 197,
-      "y": 348,
+      "x": 132,
+      "y": 328,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -200,7 +200,7 @@
       "name": "LeftBoundary",
       "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
       "width": 135,
-      "x": 0,
+      "x": -135,
       "y": -256,
       "zOrder": 38,
       "numberProperties": [],
@@ -372,7 +372,7 @@
       "name": "Platform1",
       "persistentUuid": "e05f88cc-8c5c-42d6-8ebd-a02a3a933517",
       "width": 269.3721008300781,
-      "x": 129,
+      "x": 87,
       "y": 397,
       "zOrder": 3,
       "numberProperties": [],
@@ -388,7 +388,7 @@
       "persistentUuid": "c609b5d6-28cf-4684-877a-4c2b7f8ec613",
       "width": 27.925533294677734,
       "x": 1070,
-      "y": -59,
+      "y": -24,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -508,7 +508,7 @@
       "name": "RightBoundary",
       "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
       "width": 160,
-      "x": 3232,
+      "x": 3265,
       "y": -256,
       "zOrder": 58,
       "numberProperties": [],
@@ -523,9 +523,9 @@
       "layer": "",
       "name": "TopBoundary",
       "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
-      "width": 3392,
-      "x": 1,
-      "y": -227,
+      "width": 3457,
+      "x": -64,
+      "y": -280,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -539,8 +539,8 @@
       "layer": "",
       "name": "BottomBoundary",
       "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
-      "width": 3392,
-      "x": 0,
+      "width": 3453,
+      "x": -61,
       "y": 544,
       "zOrder": 60,
       "numberProperties": [],
@@ -624,7 +624,7 @@
       "persistentUuid": "44219bf8-a4ca-4de5-84ab-a88056381b1e",
       "width": 268,
       "x": 954,
-      "y": -10,
+      "y": 33,
       "zOrder": 141,
       "numberProperties": [],
       "stringProperties": [],
@@ -1313,6 +1313,16 @@
                     "Player",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
+                  ]
                 }
               ]
             }
@@ -1445,6 +1455,16 @@
                     "Player",
                     "Player",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "25"
                   ]
                 }
               ]
@@ -1658,6 +1678,16 @@
                         "Player",
                         "Player",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Score",
+                        "-",
+                        "25"
                       ]
                     }
                   ]
