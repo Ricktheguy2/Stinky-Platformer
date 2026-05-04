@@ -1534,7 +1534,7 @@
                   },
                   "parameters": [
                     "",
-                    "jump.mp3",
+                    "Boing Sound Effect2.mp3",
                     "",
                     "50",
                     ""
@@ -2031,7 +2031,20 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "landing on enemy boing.mp3",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
