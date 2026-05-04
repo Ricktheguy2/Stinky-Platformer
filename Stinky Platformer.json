@@ -1182,6 +1182,36 @@
         "name": "boundary.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Boing Sound Effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boing Sound Effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boing Sound Effect2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boing Sound Effect2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "landing on enemy boing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "landing on enemy boing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1241,9 +1271,9 @@
           "JumpButton": "A"
         },
         {
-          "jumpSustainTime": 0.3,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "jumpSustainTime": 0.3,
           "canGoDownFromJumpthru": true,
           "acceleration": 1125,
           "deceleration": 1125,
