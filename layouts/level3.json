@@ -1664,6 +1664,18 @@
                         "+",
                         "50"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "landing on enemy boing.mp3",
+                        "",
+                        "50",
+                        ""
+                      ]
                     }
                   ]
                 },

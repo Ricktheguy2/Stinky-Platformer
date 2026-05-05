@@ -1212,6 +1212,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "spawn sound effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spawn sound effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Effect - Fortnite Chest.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Effect - Fortnite Chest.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4411359838418716,
+    "zoomFactor": 0.4128253614560298,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1678,6 +1678,18 @@
                         "+",
                         "50"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "landing on enemy boing.mp3",
+                        "",
+                        "50",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -2115,10 +2127,22 @@
                   },
                   "parameters": [
                     "",
-                    "door.aac",
+                    "Sound Effect - Fortnite Chest.mp3",
                     "0",
                     "yes",
                     "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "spawn sound effect.mp3",
+                    "",
+                    "50",
                     "1"
                   ]
                 }
