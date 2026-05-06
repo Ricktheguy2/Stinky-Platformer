@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30629425535286026,
+    "zoomFactor": 0.749931172531191,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2118,10 +2118,22 @@
                   },
                   "parameters": [
                     "",
-                    "door.aac",
+                    "Sound Effect - Fortnite Chest.mp3",
                     "0",
                     "yes",
                     "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "spawn sound effect.mp3",
+                    "",
+                    "50",
                     "1"
                   ]
                 }
