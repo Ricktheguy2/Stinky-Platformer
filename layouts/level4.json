@@ -1710,9 +1710,9 @@
                   },
                   "parameters": [
                     "",
-                    "checkpoint.mp3",
+                    "Quagmire giggity giggity goo.mp3",
                     "",
-                    "50",
+                    "25",
                     ""
                   ]
                 }
@@ -2786,27 +2786,39 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
-                    "crickets.aac",
+                    "Sound Effect - Fortnite Chest.mp3",
+                    "0",
                     "yes",
-                    "30",
+                    "100",
                     "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "PlaySoundCanal"
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
-                    "door.aac",
-                    "0",
-                    "yes",
-                    "100",
+                    "spawn sound effect.mp3",
+                    "",
+                    "50",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "geoffharvey-ping-pong-427889 (1).mp3",
+                    "yes",
+                    "15",
+                    ""
                   ]
                 }
               ]

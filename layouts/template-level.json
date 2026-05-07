@@ -1114,9 +1114,9 @@
                   },
                   "parameters": [
                     "",
-                    "checkpoint.mp3",
+                    "Quagmire giggity giggity goo.mp3",
                     "",
-                    "50",
+                    "25",
                     ""
                   ]
                 }
@@ -1271,7 +1271,7 @@
                   },
                   "parameters": [
                     "",
-                    "coin.mp3",
+                    "All Fart Sounds (Wet, dry, quick, brap).mp3",
                     "",
                     "50",
                     ""
@@ -2111,18 +2111,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "crickets.aac",
-                    "yes",
-                    "30",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -2144,6 +2132,18 @@
                     "",
                     "50",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "geoffharvey-ping-pong-427889 (1).mp3",
+                    "yes",
+                    "15",
+                    ""
                   ]
                 }
               ]
